@@ -14,6 +14,7 @@ h1 {color: rgb(0, 0, 0);
     font-family: 'Bruney', Fallback, serif;
     background-color: #f4f3ef; 
     width: 100%;
+    margin: 0;
 }
 
 a {color: rgb(0, 0, 0);
@@ -21,6 +22,12 @@ a {color: rgb(0, 0, 0);
     padding-inline: 7%;
     font-family: 'Cormorant SC', serif;
     font-weight: bold;                                    
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
 }
 
 /*nav bar*/
@@ -101,4 +108,43 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#gamemodes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 150px;
+  overflow: hidden;
+}
+
+.wrapper .carousel {
+display: grid;
+grid-auto-flow: column;
+gap: 150px;
+overflow: hidden;
+}
+
+.carousel .card {
+  height: 342px;
+  list-style: none;
+  background:rgb(164, 151, 134);
+  border-radius: 8px;
+  display: flex;
+  padding-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+}
+
+.card .img img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  align-items: center;
+  justify-self: center;
+  display: flex;
+  text-align: center;
 }
