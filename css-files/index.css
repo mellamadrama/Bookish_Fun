@@ -1,0 +1,82 @@
+/*text style*/
+@font-face {
+    font-family: 'Bruney';
+    src: url('../Bruney-Font/Bruney.woff') format('woff');
+    src: url('../Bruney-Font/Bruney.ttf') format('truetype');
+}
+h1 {color: rgb(0, 0, 0);
+    text-align:center;
+    font-size: 50px;
+    font-family: 'Bruney', Fallback, serif;                                                                                     
+}
+
+a {color: rgb(0, 0, 0);
+    text-align:center;
+    padding-inline: 7%;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;                                    
+}
+
+/*this is the slideshow css*/
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+body {
+    margin: 0px;
+  }
+
+/*this is for the description paragraph*/
+p {color: rgb(0, 0, 0);
+    text-align:center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*this is for the button*/
+button {
+    background-color: rgb(90, 87, 79);
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    font-family: 'Cormorant SC', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
