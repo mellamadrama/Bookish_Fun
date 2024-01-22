@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /*text style*/
 @font-face {
     font-family: 'Bruney';
@@ -7,7 +11,9 @@
 h1 {color: rgb(0, 0, 0);
     text-align:center;
     font-size: 50px;
-    font-family: 'Bruney', Fallback, serif;                                                                                     
+    font-family: 'Bruney', Fallback, serif;
+    background-color: #f4f3ef; 
+    width: 100%;
 }
 
 a {color: rgb(0, 0, 0);
@@ -15,6 +21,14 @@ a {color: rgb(0, 0, 0);
     padding-inline: 7%;
     font-family: 'Cormorant SC', serif;
     font-weight: bold;                                    
+}
+
+/*nav bar*/
+.navbar {
+  background-color: rgb(196, 175, 148);
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /*this is the slideshow css*/
@@ -64,19 +78,27 @@ p {color: rgb(0, 0, 0);
 
 /*this is for the button*/
 button {
-    background-color: rgb(90, 87, 79);
-    color: rgb(0, 0, 0);
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 30%;
-    font-family: 'Cormorant SC', serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  background-color: rgb(132, 127, 114);
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  font-family: 'Cormorant SC', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
 
-  button:hover {
-    opacity: 0.8;
-  }
+button:hover {
+  opacity: 0.8;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
