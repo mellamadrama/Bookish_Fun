@@ -3,7 +3,7 @@
 <head>          
     <title>Bookish Fun Login</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css-files/loginpagestyle.css">
+    <link rel="stylesheet" href="css-files/login.css">
     <meta name="viewport" content="width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,28 +13,33 @@
 <body style="background-color:#f4f3ef;">
   <!-- this is the form for users to enter their username and password -->
   <form action="index.html" method="post">
-    <header>
-        <h1>Bookish Fun</h1>
-    </header>
-    <nav> <!-- this is the navigation bar -->
-      <hr>
-      <a style="text-decoration:none" href="index.html">HOME</a>
-      <a style="text-decoration:none" href="gamemodes.html">GAME MODES</a>
-      <a style="text-decoration:none" href="aboutus.html">ABOUT US</a>
-      <a style="text-decoration:none" href="profile.html">PROFILE</a>
-      <a style="text-decoration:none" href="points.html">POINTS: </a>
-      <hr>
-  </nav>
-    <div>
-      <!-- this is the part where the username and password input is -->
-      <label for="username"><b>Username:</b></label>
-      <input type="text" placeholder="Enter Username" id="username" required>
-      <br>
-      <label for="pass-word"><b>Password:</b></label>
-      <input type="password" placeholder="Enter Password" id="pass-word" required>
-      <br>
-      <button type="submit">Login</button>
+    <header> <!-- this is the name of the site -->
+      <h1>Bookish Fun</h1>
+      <nav class="navbar"> <!-- this is the navigation bar -->
+        <a style="text-decoration:none" href="index.html">HOME</a>
+        <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
+        <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
+        <a style="text-decoration:none" href="profile.html">PROFILE</a>
+        <a style="text-decoration:none" href="points.html">POINTS: </a>
+      </nav>
+  </header>
+  <section id="login">
+    <!-- this is the part where the username and password input is -->
+    <label for="username"><b>Username:</b></label>
+    <input type="text" placeholder="Enter Username" id="username" required>
+    <br>
+    <br>
+    <label for="pass-word"><b>Password:</b></label>
+    <input type="password" placeholder="Enter Password" id="pass-word" required>
+    <br>
+    <br>
+    <div class="btn">
+      <a style="text-decoration:none" href="login.html" type="submit"><button>Login</button></a>
     </div>
+  </section>
+  <section id="nologin">
+    <a style="text-decoration:none" href="signup.html">Don't have an account?</a>
+  </section>
   </form>
 </body>
 </html>

@@ -12,6 +12,18 @@ html {
       src: url('../Bruney-Font/Bruney.woff') format('woff');
       src: url('../Bruney-Font/Bruney.ttf') format('truetype');
   }
+
+#nologin a {color: rgb(0, 0, 0);
+    text-align: center;
+    padding-inline: 7%;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;                                    
+}
+
+#nologin {
+    text-align: center;
+}
+
   h1 {color: rgb(0, 0, 0);
       text-align:center;
       font-size: 50px;
@@ -19,6 +31,14 @@ html {
       background-color: #f4f3ef; 
       margin: 0;
       padding: 15px;
+  }
+  
+  p {color: rgb(0, 0, 0);
+    text-align:center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
   
   .navbar a {color: rgb(0, 0, 0);
@@ -41,9 +61,32 @@ html {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  
-#points {
-  padding-top: 250px;
-  text-align: center;
-  font-size: 30px;
+
+#login {
+    padding-top: 250px;
+    text-align: center;
 }
+
+/*this is for the button*/
+button {
+    background-color: rgb(132, 127, 114);
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    font-family: 'Cormorant SC', serif;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
