@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /*text style*/
+  @font-face {
+      font-family: 'Bruney';
+      src: url('../Bruney-Font/Bruney.woff') format('woff');
+      src: url('../Bruney-Font/Bruney.ttf') format('truetype');
+  }
+  h1 {color: rgb(0, 0, 0);
+      text-align:center;
+      font-size: 50px;
+      font-family: 'Bruney', Fallback, serif;
+      background-color: #f4f3ef; 
+      margin: 0;
+      padding: 15px;
+  }
+  
+  .navbar a {color: rgb(0, 0, 0);
+      text-align:center;
+      padding-inline: 7%;
+      font-family: 'Cormorant SC', serif;
+      font-weight: bold;                                    
+  }
+  
+  header {
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+  }
+  
+  /*nav bar*/
+  .navbar {
+    background-color: rgb(196, 175, 148);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }

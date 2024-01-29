@@ -3,7 +3,7 @@
 <head>          
     <title>Bookish Fun Young Adult Game</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css-files/loginpagestyle.css">
+    <link rel="stylesheet" href="css-files/yagame.css">
     <meta name="viewport" content="width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,20 +13,22 @@
 <body style="background-color:#f4f3ef;">
     <header> <!-- this is the name of the site -->
         <h1>Bookish Fun</h1>
+        <nav class="navbar"> <!-- this is the navigation bar -->
+          <a style="text-decoration:none" href="#home">HOME</a>
+          <a style="text-decoration:none" href="#aboutus">ABOUT US</a>
+          <a style="text-decoration:none" href="#gamemodes">GAME MODES</a>
+          <a style="text-decoration:none" href="profile.html">PROFILE</a>
+          <a style="text-decoration:none" href="points.html">POINTS: </a>
+        </nav>
     </header>
-    <nav> <!-- this is the navigation bar -->
-        <hr>
-        <button href="gamemodes.html" class="arrow-button"><span class="arrow"></span>
-        </button>
-        <a style="text-decoration:none" href="gamemodes.html">GAME MODES</a>
-        <a style="text-decoration:none" href="points.html">POINTS: </a>
-        <hr>
-    </nav>
-
     <!-- this is the message once you select a specific game mode and the play button -->
-    <p>You've Selected 'Young Adult Game Mode'</p>
-    <p>Are You Ready?</p>
-    <br>
-    <button href="" class="playbutton">PLAY</button>
+    <section id="play">
+        <p>You've Selected 'Young Adult Game Mode'</p>
+        <p>Are Your Ready?</p>
+        <br>
+        <div class="btn">
+            <a style="text-decoration:none" href="yaqn.html"><button>PLAY</button></a>
+        </div>
+    </section>
 </body>
 </html>
