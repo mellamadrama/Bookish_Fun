@@ -3,7 +3,7 @@
 <head>          
     <title>Bookish Fun Exit Education Game</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css-files/loginpagestyle.css">
+    <link rel="stylesheet" href="css-files/eduexit.css">
     <meta name="viewport" content="width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,20 +12,27 @@
 
 <body style="background-color:#f4f3ef;">
   <!-- this is the form for users to enter their username and password -->
-<header>
+  <header> <!-- this is the name of the site -->
     <h1>Bookish Fun</h1>
-    </header>
-    <nav> <!-- this is the navigation bar -->
-        <hr>
-        <a style="text-decoration:none" href="gamemodes.html">GAME MODES</a>
-        <a style="text-decoration:none" href="points.html">POINTS: </a>
-        <hr>
+    <nav class="navbar"> <!-- this is the navigation bar -->
+      <a style="text-decoration:none" href="index.html#home">HOME</a>
+      <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
+      <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
+      <a style="text-decoration:none" href="profile.html">PROFILE</a>
+      <a style="text-decoration:none" href="points.html">POINTS: </a>
     </nav>
+</header>
     <br>
     <!-- confirmation on exiting/quiting the game -->
-    <p>Are You Sure You Want To Exit/Quit The Game?</p>
-    <br>
-    <button href="educationgame.html" class="yesbutton">YES</button>
-    <button href="eduqn.html" class="nobutton">NO</button>
+    <section id="exit">
+        <p>Are You Sure You Want To Exit/Quit The Game?</p>
+        <br>
+        <div class="btn">
+            <a style="text-decoration:none" href="index.html#gamemodes"><button>YES</button></a>
+        </div>
+        <div class="btn">
+            <a style="text-decoration:none" href="eduqn.html"><button>NO</button></a>
+        </div>
+    </section>
 </body>
 </html>
