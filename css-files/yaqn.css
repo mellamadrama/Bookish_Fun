@@ -1,6 +1,10 @@
 html {
     scroll-behavior: smooth;
   }
+
+  body {
+    margin: 0px;
+}
   
   /*text style*/
   @font-face {
@@ -33,7 +37,6 @@ html {
   /*nav bar*/
   .navbar {
     background-color: rgb(196, 175, 148);
-    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
   }
