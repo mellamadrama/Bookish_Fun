@@ -12,9 +12,8 @@
 
 <body style="background-color:#f4f3ef;">
   <!-- this is the form for users to enter their username and password -->
-  <form action="index.html" method="post">
-    <header> <!-- this is the name of the site -->
-      <h1>Bookish Fun</h1>
+  <header> <!-- this is the name of the site -->
+    <h1>Bookish Fun</h1>
       <nav class="navbar"> <!-- this is the navigation bar -->
         <a style="text-decoration:none" href="index.html">HOME</a>
         <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
@@ -23,23 +22,27 @@
         <a style="text-decoration:none" href="points.html">POINTS: </a>
       </nav>
   </header>
-  <section id="login">
-    <!-- this is the part where the username and password input is -->
-    <label for="username"><b>Username:</b></label>
-    <input type="text" placeholder="Enter Username" id="username" required>
-    <br>
-    <br>
-    <label for="pass-word"><b>Password:</b></label>
-    <input type="password" placeholder="Enter Password" id="pass-word" required>
-    <br>
-    <br>
-    <div class="btn">
-      <a style="text-decoration:none" href="login.html" type="submit"><button>Login</button></a>
-    </div>
-  </section>
-  <section id="nologin">
-    <a style="text-decoration:none" href="signup.html">Don't have an account?</a>
-  </section>
+  <form action="index.html" method="post">
+    <section id="login">
+      <!-- this is the part where the username and password input is -->
+      <label for="username"><b>Username:</b></label>
+      <input type="text" placeholder="Enter Username" id="username" required>
+      <br>
+      <br>
+      <label for="pass-word"><b>Password:</b></label>
+      <input type="password" placeholder="Enter Password" id="pass-word" required>
+      <br>
+      <br>
+      <div class="btn">
+        <a style="text-decoration:none" href="login.html" type="submit"><button>Login</button></a>
+      </div>
+      <div class="btn">
+        <a style="text-decoration:none" href="index.html#gamemodes"><button>Login As Guest</button></a>
+      </div>
+    </section>
+    <section id="nologin">
+      <a style="text-decoration:none" href="signup.html">Don't have an account?</a>
+    </section>
   </form>
 </body>
 </html>

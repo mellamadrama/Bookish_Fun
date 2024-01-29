@@ -3,7 +3,7 @@
 <head>          
     <title>Bookish Fun Sign Up</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css-files/loginpagestyle.css">
+    <link rel="stylesheet" href="css-files/signup.css">
     <meta name="viewport" content="width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,20 +12,28 @@
 
 <body style="background-color:#f4f3ef;">
   <!-- this is the form for users to enter their username and password -->
-  <form action="index.html" method="post">
     <header>
         <h1>Bookish Fun</h1>
+        <hr>
     </header>
+    <form id="signup-form" action="signup.html" method="get">
+    <section id="signup">
     <div>
       <!-- this is the part where the username and password input is -->
       <label for="username"><b>Username:</b></label>
       <input type="text" placeholder="Enter Username" id="username" required>
       <br>
-      <label for="pass-word"><b>Password:</b></label>
-      <input type="password" placeholder="Enter Password" id="pass-word" required>
       <br>
-      <button type="submit">Login</button>
+      <label for="pass-word"><b>Password:</b></label>
+      <input type="password" placeholder="Enter Password" id="password" required>
+      <br>
+      <br>
+      <button id="submit-btn" type="submit" href="profile.html">Sign In</button>
     </div>
-  </form>
+    </section>
+    </form> 
 </body>
+
+  <!-- This is the JavaScript -->
+  <script type="module" src="javascript-files/signup.js"></script>
 </html>
