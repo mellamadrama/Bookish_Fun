@@ -1,3 +1,5 @@
+import { doc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js';
+
 //variables
 var quiz = [];
 quiz[0] = new Question("I am so dreadfully sick of spewing wireless code.", "Codename Verity", "The Girl Who Survived", "Harry Potter", "How Do You Live");
@@ -24,6 +26,8 @@ quiz[20] = new Question("What was Vincent van Gogh?", "Artist", "Baker", "Jobles
 var randomQuestion;
 var answers = [];
 var currentScore = 0;
+
+let numofWrongAns = 0;
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   btnProvideQuestion();
@@ -94,12 +98,23 @@ function adjustScore(isCorrect) {
   document.getElementById("score").innerHTML = currentScore;
 }
 
-function checkAnswer(answer) {  
-  if (answer == randomQuestion.rightAnswer) {
+async function checkAnswer(answer) {  
+    if (answer == randomQuestion.rightAnswer) {
     adjustScore(true);
     btnProvideQuestion();
-  } else { 
+    } 
+    else { 
     alert("Wrong!");
     adjustScore(false);
-  }	  
+    numofWrongAns += 1;
+    }	  
+    if (numofWrongAns == 3 || currentScore == 20) {
+    window.location.href = 'endofgame.html';
+    const pointsSystem = doc(db, "accounts", document.getElementById('username').value);
+
+    await updateDoc(pointsSystem, {
+    score: currentScore
+    });
+    }
 }
+

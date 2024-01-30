@@ -14,16 +14,9 @@
   <header> <!-- this is the name of the site -->
     <h1>Bookish Fun</h1>
     <nav class="navbar"> <!-- this is the navigation bar -->
-      <a style="text-decoration:none" href="gameexit.html">EXIT</a>
+      <a style="text-decoration:none" href="gameexit.html" onclick="answerA_clicked()">EXIT</a>
       <a style="text-decoration:none" href="eduqn.html">EDUCATION GAME MODE</a>
-      <div class="point">
-        <div class="flex">
-          <div class="field">
-            <a style="text-decoration:none" href="points.html">POINTS: </a>
-          </div>
-          <div id="score" class="field">0</div>
-        </div>
-      </div>
+      <a style="text-decoration:none" href="points.html">POINTS:<span id="score">0</span></a>
     </nav>
 </header>
 
@@ -54,6 +47,6 @@
     </section>
 
     <!-- This is the JavaScript for the quiz -->
-    <script src="javascript-files/eduqn.js"></script>
+    <script src="javascript-files/eduqn.js" type="module"></script>
 </body>
 </html>
