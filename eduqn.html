@@ -14,30 +14,46 @@
   <header> <!-- this is the name of the site -->
     <h1>Bookish Fun</h1>
     <nav class="navbar"> <!-- this is the navigation bar -->
-      <a style="text-decoration:none" href="index.html#home">HOME</a>
-      <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
-      <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
-      <a style="text-decoration:none" href="profile.html">PROFILE</a>
-      <a style="text-decoration:none" href="points.html">POINTS: </a>
+      <a style="text-decoration:none" href="gameexit.html">EXIT</a>
+      <a style="text-decoration:none" href="eduqn.html">EDUCATION GAME MODE</a>
+      <div class="point">
+        <div class="flex">
+          <div class="field">
+            <a style="text-decoration:none" href="points.html">POINTS: </a>
+          </div>
+          <div id="score" class="field">0</div>
+        </div>
+      </div>
     </nav>
 </header>
 
     <!-- this is the message once you select a specific game mode and the play button -->
-    <h3>Where did this quote come from?</h3>
-      <div class="flex">
-        <div id="question" class="field"></div>
-      </div>
-      <div class="flex">
-        <button id="answerA" onclick="answerA_clicked()"></button>
-      </div>
-      <div class="flex">
-        <button id="answerB" onclick="answerB_clicked()"></button>
-      </div>
-      <div class="flex">
-        <button id="answerC" onclick="answerC_clicked()"></button>
-      </div>
-      <div class="flex">
-        <button id="answerD" onclick="answerD_clicked()"></button>
-      </div>
+    <section id="quiz">
+      <h3>Where did this quote come from?</h3>
+          <br>
+          <div class="flex">
+            <div id="question" class="field"></div>
+          </div>
+          <br>
+          <div class="grid">
+            <div class="flex">
+              <button id="answerA" onclick="answerA_clicked()"></button>
+            </div>
+            <div class="flex">
+              <button id="answerB" onclick="answerB_clicked()"></button>
+            </div>
+            </div>
+            <div class="grid">
+            <div class="flex">
+              <button id="answerC" onclick="answerC_clicked()"></button>
+            </div>
+            <div class="flex">
+              <button id="answerD" onclick="answerD_clicked()"></button>
+            </div>
+          </div>
+    </section>
+
+    <!-- This is the JavaScript for the quiz -->
+    <script src="javascript-files/eduqn.js"></script>
 </body>
 </html>
