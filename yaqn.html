@@ -3,7 +3,7 @@
 <head>          
     <title>Bookish Fun Young Adult Game</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css-files/eduqn.css">
+    <link rel="stylesheet" href="css-files/yaqn.css">
     <meta name="viewport" content="width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
     <nav class="navbar"> <!-- this is the navigation bar -->
       <a style="text-decoration:none" href="gameexit.html">EXIT</a>
       <a style="text-decoration:none" href="yaqn.html">YOUNG ADULT GAME MODE</a>
-      <a style="text-decoration:none" href="points.html">POINTS: </a>
+      <a style="text-decoration:none" href="points.html">POINTS:<span id="score">0</span></a>
     </nav>
 </header>
 
@@ -30,20 +30,23 @@
           <br>
           <div class="grid">
             <div class="flex">
-              <button id="answerA" onclick="answerA_clicked()"></button>
+              <button id="answerA"></button>
             </div>
             <div class="flex">
-              <button id="answerB" onclick="answerB_clicked()"></button>
+              <button id="answerB"></button>
             </div>
             </div>
             <div class="grid">
             <div class="flex">
-              <button id="answerC" onclick="answerC_clicked()"></button>
+              <button id="answerC"></button>
             </div>
             <div class="flex">
-              <button id="answerD" onclick="answerD_clicked()"></button>
+              <button id="answerD"></button>
             </div>
           </div>
     </section>
+
+        <!-- This is the JavaScript for the quiz -->
+        <script src="./javascript-files/yaqn.js" type="module"></script>
 </body>
 </html>

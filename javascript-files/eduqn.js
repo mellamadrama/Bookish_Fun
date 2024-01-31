@@ -25,7 +25,7 @@ quiz[19] = new Question("“I am fortune's fool!”", "Romeo & Juliet", "2", "4"
 quiz[20] = new Question("What was Vincent van Gogh?", "Artist", "Baker", "Jobless");
 var randomQuestion;
 var answers = [];
-var currentScore = 0;
+let currentScore = 0;
 
 let numofWrongAns = 0;
 
@@ -65,26 +65,25 @@ function btnProvideQuestion() {
 
 }
 
-async function answerA_clicked() {
+document.getElementById("answerA").addEventListener("click", async function(){
   var answerA = document.getElementById("answerA").value;
-  	await checkAnswer(answerA);
-}
+  await checkAnswer(answerA);
+});
 
-async function answerB_clicked() {
-		var answerB = document.getElementById("answerB").value;
+document.getElementById("answerB").addEventListener("click", async function(){
+  var answerB = document.getElementById("answerB").value;
   await checkAnswer(answerB);
-}
-async function answerC_clicked() {
-  var answerC = document.getElementById("answerC").value;
-  	
-		await checkAnswer(answerC);
-}
+});
 
-async function answerD_clicked() {
-    var answerD = document.getElementById("answerD").value;
-        
-          await checkAnswer(answerD);
-  }
+document.getElementById("answerC").addEventListener("click", async function(){
+  var answerC = document.getElementById("answerC").value;
+	await checkAnswer(answerC);
+});
+
+document.getElementById("answerD").addEventListener("click", async function(){
+  var answerD = document.getElementById("answerD").value;
+  await checkAnswer(answerD);
+});
 
 function adjustScore(isCorrect) {
   debugger;
@@ -109,7 +108,7 @@ async function checkAnswer(answer) {
     numofWrongAns += 1;
     }	  
     if (numofWrongAns == 3 || currentScore == 20) {
-    window.location.href = 'endofgame.html';
+    window.location.href = `endofgame.html?score=${currentScore}`;
     const pointsSystem = doc(db, "accounts", document.getElementById('username').value);
 
     await updateDoc(pointsSystem, {
