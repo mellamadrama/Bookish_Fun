@@ -7,19 +7,17 @@ document.getElementById('submit-btn').addEventListener('click', async function (
     e.preventDefault()
     const docRef = doc(db, "accounts", document.getElementById('username').value);
     const docSnap = await getDoc(docRef);
-    console.log(docSnap);
 
     if (docSnap.exists()) {
         alert("Username already taken!");
     } else {
-        console.log('etrgewrgeroigreoig')
         const username = document.getElementById('username').value
         const response = await setDoc(doc(db, "accounts", username), {
             username: username,
             score: 0,
             password: document.getElementById('password').value
         })
+        localStorage.setItem("accounts", document.getElementById('username').value);
         window.location.href = 'profile.html';
     }
 })
-

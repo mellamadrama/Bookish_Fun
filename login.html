@@ -22,7 +22,7 @@
         <a style="text-decoration:none" href="points.html">POINTS: </a>
       </nav>
   </header>
-  <form action="index.html" method="post">
+  <form action="index.html">
     <section id="login">
       <!-- this is the part where the username and password input is -->
       <label for="username"><b>Username:</b></label>
@@ -30,19 +30,18 @@
       <br>
       <br>
       <label for="pass-word"><b>Password:</b></label>
-      <input type="password" placeholder="Enter Password" id="pass-word" required>
+      <input type="password" placeholder="Enter Password" id="password" required>
       <br>
       <br>
       <div class="btn">
-        <a style="text-decoration:none" href="login.html" type="submit"><button>Login</button></a>
-      </div>
-      <div class="btn">
-        <a style="text-decoration:none" href="index.html#gamemodes"><button>Login As Guest</button></a>
+        <a style="text-decoration:none" href="login.html" id="submit"><button>Login</button></a>
       </div>
     </section>
     <section id="nologin">
       <a style="text-decoration:none" href="signup.html">Don't have an account?</a>
     </section>
   </form>
+    <!-- This is the JavaScript -->
+    <script type="module" src="javascript-files/login.js"></script>
 </body>
 </html>

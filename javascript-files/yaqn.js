@@ -1,3 +1,4 @@
+import { db } from "./firebase.js";
 import { doc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js';
 
 //variables
@@ -109,7 +110,8 @@ async function checkAnswer(answer) {
     }	  
     if (numofWrongAns == 3 || currentScore == 20) {
     window.location.href = `endofgame.html?score=${currentScore}`;
-    const pointsSystem = doc(db, "accounts", document.getElementById('username').value);
+    const acc = localStorage.getItem("accounts");
+    const pointsSystem = doc(db, "accounts", acc);
 
     await updateDoc(pointsSystem, {
     score: currentScore
