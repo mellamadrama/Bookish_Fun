@@ -2,26 +2,26 @@ import { doc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.7.2/fireba
 
 //variables
 var quiz = [];
-quiz[0] = new Question("I am so dreadfully sick of spewing wireless code.", "Codename Verity", "The Girl Who Survived", "Harry Potter", "How Do You Live");
-quiz[1] = new Question("What color is blood?", "Red", "White", "Green");
-quiz[2] = new Question("What color is grass?", "Green", "White", "Red");
-quiz[3] = new Question("How many legs does a spider have?", "8", "6", "4");
-quiz[4] = new Question("Who is the king of the Netherlands?", "Willem-Alexander", "Willem-Alexzelf", "Willem-Alexniemand");
-quiz[5] = new Question("What is 2-2?", "0", "2", "4");
-quiz[6] = new Question("What was Vincent van Gogh?", "Artist", "Baker", "Jobless");
-quiz[7] = new Question("What is 1/4 of 100?", "25", "24", "23");
+quiz[0] = new Question("“I am so dreadfully sick of spewing wireless code.”", "Codename Verity", "The Girl Who Survived", "Harry Potter", "How Do You Live");
+quiz[1] = new Question("“Stay gold, Ponyboy. Stay gold.”", "The Outsiders", "Romeo & Juliet", "Sherlock Holmes", "The Great Gatsby");
+quiz[2] = new Question("“It's like being in love, discovering your best friend.”", "Codename Verity", "Sherlock Holmes", "Pride & Prejudice", "To Kill A Mockingbird");
+quiz[3] = new Question("“A rose by any other name would smell as sweet.”", "Romeo & Juliet", "Pride & Prejudice", "How Do You Live", "The Little Prince");
+quiz[4] = new Question("“KISS ME, HARDY! Kiss me, QUICK!”", "Codename Verity", "Willem-Alexzelf", "Willem-Alexniemand");
+quiz[5] = new Question("“Parting is such sweet sorrow.”", "Romeo & Juliet", "2", "4");
+quiz[6] = new Question("“A part of me will always be unflyable, stuck in the climb.”", "Codename Verity", "Baker", "Jobless");
+quiz[7] = new Question("“Get smart and nothing can touch you.”", "The Outsiders", "24", "23");
 quiz[8] = new Question("What color is blood?", "Red", "White", "Green");
-quiz[9] = new Question("What color is grass?", "Green", "White", "Red");
+quiz[9] = new Question("“But a part of me lies buried in lace and roses on a riverbank in France-a part of me is broken off forever.”", "Codename Verity", "White", "Red");
 quiz[10] = new Question("How many legs does a spider have?", "8", "6", "4");
 quiz[11] = new Question("Who is the king of the Netherlands?", "Willem-Alexander", "Willem-Alexzelf", "Willem-Alexniemand");
-quiz[12] = new Question("What is 2-2?", "0", "2", "4");
-quiz[13] = new Question("What was Vincent van Gogh?", "Artist", "Baker", "Jobless");
-quiz[14] = new Question("What is 1/4 of 100?", "25", "24", "23");
+quiz[12] = new Question("“These violent delights have violent ends.”", "Romeo & Juliet", "2", "4");
+quiz[13] = new Question("“But I have told the truth. Isn't that ironic? They sent me because I am so good at telling lies. But I have told the truth.”", "Codename Verity", "Baker", "Jobless");
+quiz[14] = new Question("“You can't win. You know that, don't you? It doesn't matter if you whip us, you'll still be where you were before, at the bottom.”", "The Outsiders", "24", "23");
 quiz[15] = new Question("What color is blood?", "Red", "White", "Green");
 quiz[16] = new Question("What color is grass?", "Green", "White", "Red");
 quiz[17] = new Question("How many legs does a spider have?", "8", "6", "4");
 quiz[18] = new Question("Who is the king of the Netherlands?", "Willem-Alexander", "Willem-Alexzelf", "Willem-Alexniemand");
-quiz[19] = new Question("What is 2-2?", "0", "2", "4");
+quiz[19] = new Question("“I am fortune's fool!”", "Romeo & Juliet", "2", "4");
 quiz[20] = new Question("What was Vincent van Gogh?", "Artist", "Baker", "Jobless");
 var randomQuestion;
 var answers = [];
@@ -65,25 +65,25 @@ function btnProvideQuestion() {
 
 }
 
-function answerA_clicked() {
+async function answerA_clicked() {
   var answerA = document.getElementById("answerA").value;
-  	checkAnswer(answerA);
+  	await checkAnswer(answerA);
 }
 
-function answerB_clicked() {
+async function answerB_clicked() {
 		var answerB = document.getElementById("answerB").value;
-  checkAnswer(answerB);
+  await checkAnswer(answerB);
 }
-function answerC_clicked() {
+async function answerC_clicked() {
   var answerC = document.getElementById("answerC").value;
   	
-		checkAnswer(answerC);
+		await checkAnswer(answerC);
 }
 
-function answerD_clicked() {
+async function answerD_clicked() {
     var answerD = document.getElementById("answerD").value;
         
-          checkAnswer(answerD);
+          await checkAnswer(answerD);
   }
 
 function adjustScore(isCorrect) {

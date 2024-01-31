@@ -12,21 +12,27 @@
 
 <body style="background-color:#f4f3ef;">
   <!-- this is the form for users to enter their username and password -->
-<header>
+  <header> <!-- this is the name of the site -->
     <h1>Bookish Fun</h1>
-    </header>
-    <nav> <!-- this is the navigation bar -->
-        <hr>
-        <a style="text-decoration:none" href="gamemodes.html">GAME MODES</a>
-        <a style="text-decoration:none" href="points.html">POINTS: </a>
-        <hr>
+    <nav class="navbar"> <!-- this is the navigation bar -->
+      <a style="text-decoration:none" href="index.html#home">HOME</a>
+      <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
+      <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
+      <a style="text-decoration:none" href="profile.html">PROFILE</a>
+      <a style="text-decoration:none" href="points.html">POINTS: </a>
     </nav>
+</header>
     <br>
     <!-- confirmation on exiting/quiting the game -->
     <p>You've made it to the end of this Game Mode!</p>
     <p>Congratulations! You've earned: </p>
     <br>
-    <h2>-- Points</h2>
-    <button href="index.html" class="exitbutton">EXIT</button>
+    <h2><span id="score">0</span>POINTS</h2>
+    <div class="btn">
+        <a style="text-decoration:none" href="index.html"><button>EXIT</button></a>
+    </div>
+
+     <!-- This is the JavaScript for the quiz -->
+     <script src="javascript-files/eduqn.js" type="module"></script>
 </body>
 </html>
