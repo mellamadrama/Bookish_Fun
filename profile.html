@@ -18,18 +18,23 @@
           <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
           <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
           <a style="text-decoration:none" href="profile.html">PROFILE</a>
-          <a style="text-decoration:none" href="points.html">POINTS: </a>
+          <a style="text-decoration:none" href="points.html">POINTS:<span id="score"> 0</span></a>
         </nav>
     </header>
     <section id="details">
         <img src="https://avatar.iran.liara.run/public" alt="profile picture" width="200px" height="200px">
         <div>
-            <p>Username: </p>
-            <p>Points: </p>
+            <p>Username: <span id="user">-</span></p>
+            <p>Points: <span id="point">0</span></p>
         </div>
         <div class="btn">
-            <a style="text-decoration:none" href="login.html"><button>Log Out</button></a>
+            <a style="text-decoration:none" href="login.html" id="out"><button>Log Out</button></a>
+        </div>
+        <div class="btn">
+            <a style="text-decoration:none" href="login.html"><button>Login/Sign Up</button></a>
         </div>
     </section>   
+          <!-- This is the JavaScript for the slideshow -->
+  <script src="javascript-files/profile.js" type="module"></script>
 </body>
 </html>

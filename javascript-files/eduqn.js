@@ -64,7 +64,7 @@ function btnProvideQuestion() {
   document.getElementById("answerD").value= answers[3];
   document.getElementById("answerD").innerHTML= answers[3];
 
-}
+};
 
 document.getElementById("answerA").addEventListener("click", async function(){
   var answerA = document.getElementById("answerA").value;
@@ -96,7 +96,7 @@ function adjustScore(isCorrect) {
   	}
   }
   document.getElementById("score").innerHTML = currentScore;
-}
+};
 
 async function checkAnswer(answer) {  
     if (answer == randomQuestion.rightAnswer) {
@@ -117,5 +117,4 @@ async function checkAnswer(answer) {
     score: currentScore
     });
     }
-}
-
+};

@@ -5,6 +5,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const score = urlParams.get('score');
 
 document.getElementById("score").innerText = score;
+document.getElementById("points").innerText = score;
 
 document.getElementById('exit').addEventListener('click', async function (e) {
     e.preventDefault()
@@ -17,4 +18,4 @@ document.getElementById('exit').addEventListener('click', async function (e) {
     });
     window.location.href = 'index.html';
 
-})
+});
