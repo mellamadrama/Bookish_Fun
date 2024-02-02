@@ -13,12 +13,25 @@
 <body style="background-color:#f4f3ef;">
     <header> <!-- this is the name of the site -->
         <h1>Bookish Fun</h1>
-        <nav class="navbar"> <!-- this is the navigation bar -->
-          <a style="text-decoration:none" href="#home">HOME</a>
-          <a style="text-decoration:none" href="#aboutus">ABOUT US</a>
-          <a style="text-decoration:none" href="#gamemodes">GAME MODES</a>
-          <a style="text-decoration:none" href="profile.html">PROFILE</a>
+        <nav class="navbar"> <!-- this is the navigation bar for desktop -->
+          <a style="text-decoration:none" href="index.html">HOME</a>
+          <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
+          <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
+          <a style="text-decoration:none" href="profile.html" id="profile">PROFILE</a>
           <a style="text-decoration:none" href="points.html">POINTS:<span id="score"> 0</span></a>
+        </nav>
+
+        <!--this is the navbar for mobile-->
+        <nav class="mobile-navbar">
+            <div class="dropdown">
+                <div class="dropbtn"><u>PROFILE</u></div>
+                <div class="dropdown-content">
+                    <a style="text-decoration:none" href="index.html">HOME</a>
+                    <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
+                    <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
+                    <a style="text-decoration:none" href="points.html">POINTS:<span id="score"> 0</span></a>
+                </div>
+            </div>
         </nav>
     </header>
     <section id="home">

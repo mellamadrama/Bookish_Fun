@@ -1,6 +1,12 @@
 import { db } from "./firebase.js";
 import { doc, getDoc } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js'
 
+const x = document.getElementById("profile")
+x.addEventListener("click", function(e){
+  e.preventDefault()
+});
+
+
 let score = 0;
 let user = '';
 const acc = localStorage.getItem("accounts");
