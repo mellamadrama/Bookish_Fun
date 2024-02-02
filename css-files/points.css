@@ -43,6 +43,7 @@ html {
   }
   
 #points {
+  background-image: url(book-images/coffeebook1.jpg);
   padding-top: 250px;
   text-align: center;
   font-size: 30px;
