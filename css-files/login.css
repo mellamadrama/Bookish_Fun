@@ -101,7 +101,7 @@ button {
   display: none;
 }
 
-@media screen and (max-width: 1259px) and (min-width: 375px) {
+@media screen and (max-width: 1259px){
   .navbar {
     display: none;
   }

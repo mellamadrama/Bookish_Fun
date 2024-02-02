@@ -87,7 +87,6 @@ document.getElementById("answerD").addEventListener("click", async function(){
 });
 
 function adjustScore(isCorrect) {
-  debugger;
   if (isCorrect) {
     currentScore++;
   } else {

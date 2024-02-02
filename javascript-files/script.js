@@ -22,7 +22,8 @@ const acc = localStorage.getItem("accounts");
 const pointsSystem = doc(db, "accounts", acc);
 
 getDoc(pointsSystem).then(function (data){
-  console.log(data.data().score);
   score = data.data().score;
   document.getElementById("score").innerText = score
+  document.getElementById("scores").innerText = score
+
 });
