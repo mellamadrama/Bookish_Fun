@@ -122,7 +122,6 @@ button:hover {
   min-height: 100vh;
   gap: 150px;
   overflow: hidden;
-  padding-top: 150px;
 }
 
 .carousel {
@@ -132,7 +131,7 @@ button:hover {
 }
 
 .card {
-  width: 30vw;
+  width: 350px;
   height: 350px;
   padding: 5px;
   background:rgb(164, 151, 134);
@@ -199,5 +198,21 @@ button:hover {
 
   button {
     width: 90vw;
+  }
+
+  .slideshow-container {
+    padding-top: 150px;
+  }
+
+  .carousel {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 0;
+    align-content: center;
+    padding-bottom: 20px;
+  }
+
+  .card {
+    margin: 0px;
   }
 }

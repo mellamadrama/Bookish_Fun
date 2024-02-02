@@ -82,49 +82,19 @@ button {
   display: none;
 }
 
-@media screen and (max-width: 1259px) and (min-width: 375px) {
+@media screen and (max-width: 1259px){
   .navbar {
     display: none;
   }
 
   .mobile-navbar {
     display: block;
-  }
-  
-  .dropbtn {
     background-color: rgb(196, 175, 148);
-    width: 100vw;
     padding-top: 20px;
     padding-bottom: 20px;
+    justify-content: center;
     text-align: center;
   }
-
-  .dropdown {
-    position: relative;
-    display: block;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(196, 175, 148);
-    width: 100vw;
-    z-index: 1;
-    text-align: center;
-  }
-
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
-  .dropdown-content a:hover {background-color: rgb(203, 163, 110);}
-
-  .dropdown:hover .dropdown-content {display: block;}
-
-  .dropdown:hover .dropbtn {background-color: rgb(203, 163, 110);}
 
   button {
     width: 90vw;
