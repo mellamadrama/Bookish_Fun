@@ -18,25 +18,26 @@
       <a style="text-decoration:none" href="index.html">HOME</a>
       <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
       <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
-      <a style="text-decoration:none" href="profile.html" id="profile">PROFILE</a>
-      <a style="text-decoration:none" href="points.html">POINTS:<span id="score"> 0</span></a>
+      <a style="text-decoration:none" href="profile.html">PROFILE</a>
+      <a style="text-decoration:none" href="points.html">POINTS: 0</a>
     </nav>
 
     <!--this is the navbar for mobile-->
     <nav class="mobile-navbar">
         <div class="dropdown">
-            <div class="dropbtn"><u>PROFILE</u></div>
+            <div class="dropbtn"><u>LOGIN</u></div>
             <div class="dropdown-content">
                 <a style="text-decoration:none" href="index.html">HOME</a>
                 <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
                 <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
-                <a style="text-decoration:none" href="points.html">POINTS:<span id="score"> 0</span></a>
+                <a style="text-decoration:none" href="profile.html">PROFILE</a>
+                <a style="text-decoration:none" href="points.html">POINTS: 0</a>
             </div>
         </div>
     </nav>
   </header>
   <form action="index.html">
-    <section id="login">
+    <div id="login">
       <!-- this is the part where the username and password input is -->
       <label for="username"><b>Username:</b></label>
       <input type="text" placeholder="Enter Username" id="username" required>
@@ -47,12 +48,12 @@
       <br>
       <br>
       <div class="btn">
-        <a style="text-decoration:none" href="login.html" id="submit"><button>Login</button></a>
+        <button id="submit">Login</button>
       </div>
-    </section>
-    <section id="nologin">
+    </div>
+    <div id="nologin">
       <a style="text-decoration:none" href="signup.html">Don't have an account?</a>
-    </section>
+    </div>
   </form>
     <!-- This is the JavaScript -->
     <script type="module" src="javascript-files/login.js"></script>

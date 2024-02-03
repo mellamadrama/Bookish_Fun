@@ -101,6 +101,7 @@ function adjustScore(isCorrect) {
   	}
   }
   document.getElementById("score").innerHTML = currentScore;
+  document.getElementById("scores").innerHTML = currentScore;
 }
 
 async function checkAnswer(answer) {  

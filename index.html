@@ -11,65 +11,65 @@
 </head>
 
 <body style="background-color:#f4f3ef;">
-    <header> <!-- this is the name of the site -->
-        <h1>Bookish Fun</h1>
-        <nav class="navbar"> <!-- this is the navigation bar for desktop -->
-          <a style="text-decoration:none" href="index.html">HOME</a>
+  <header> <!-- this is the name of the site -->
+    <h1>Bookish Fun</h1>
+    <nav class="navbar"> <!-- this is the navigation bar for desktop -->
+      <a style="text-decoration:none" href="index.html">HOME</a>
+      <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
+      <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
+      <a style="text-decoration:none" href="profile.html">PROFILE</a>
+      <a style="text-decoration:none" href="points.html">POINTS:<span id="score"> 0</span></a>
+    </nav>
+
+    <!--this is the navbar for mobile-->
+    <nav class="mobile-navbar">
+      <div class="dropdown">
+        <div class="dropbtn"><u>HOME</u></div>
+        <div class="dropdown-content">
           <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
           <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
-          <a style="text-decoration:none" href="profile.html" id="profile">PROFILE</a>
-          <a style="text-decoration:none" href="points.html">POINTS:<span id="score"> 0</span></a>
-        </nav>
-
-        <!--this is the navbar for mobile-->
-        <nav class="mobile-navbar">
-            <div class="dropdown">
-                <div class="dropbtn"><u>HOME</u></div>
-                <div class="dropdown-content">
-                    <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
-                    <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
-                    <a style="text-decoration:none" href="profile.html" id="profile">PROFILE</a>
-                    <a style="text-decoration:none" href="points.html">POINTS:<span id="scores"> 0</span></a>
-                </div>
-            </div>
-        </nav>
+          <a style="text-decoration:none" href="profile.html">PROFILE</a>
+          <a style="text-decoration:none" href="points.html">POINTS:<span id="scores"> 0</span></a>
+        </div>
+      </div>
+    </nav>
     </header>
-    <section id="home">
-    <div class="slideshow-container">
-      <div class="mySlides fade">
-        <img src="book-images/pride-and-prejudice.jpeg" style="width:100%">
-      </div>  
-      <div class="mySlides fade">
-        <img src="book-images/quote1.jpeg" style="width:100%">
-      </div> 
-      <div class="mySlides fade">
-        <img src="book-images/quote2.jpeg" style="width:100%">
-      </div>
-      <div class="mySlides fade">
-        <img src="book-images/cruel-prince.jpeg" style="width:100%">
-      </div>
-      <div class="mySlides fade">
-        <img src="book-images/quote3.jpeg" style="width:100%">
-      </div>
-      <div class="mySlides fade">
-        <img src="book-images/quote4.jpeg" style="width:100%">
-      </div>
-      <div class="mySlides fade">
-        <img src="book-images/conversations-with-friends.jpeg" style="width:100%">
-      </div>
-      <div class="mySlides fade">
-        <img src="book-images/quote5.jpeg" style="width:100%">
-      </div>
-      <div class="mySlides fade">
-        <img src="book-images/quote6.jpeg" style="width:100%">
-      </div>
-      <div class="mySlides fade">
-        <img src="book-images/the-ballad-of-never-after.jpeg" style="width:100%">
+    <div id="home">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="book-images/pride-and-prejudice.jpeg" alt="book quotes 1" style="width:100%">
+        </div>  
+        <div class="mySlides fade">
+          <img src="book-images/quote1.jpeg" alt="book quotes 2" style="width:100%">
+        </div> 
+        <div class="mySlides fade">
+          <img src="book-images/quote2.jpeg" alt="book quotes 3" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="book-images/cruel-prince.jpeg" alt="book quotes 4" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="book-images/quote3.jpeg" alt="book quotes 5" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="book-images/quote4.jpeg" alt="book quotes 6" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="book-images/conversations-with-friends.jpeg" alt="book quotes 7" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="book-images/quote5.jpeg" alt="book quotes 7" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="book-images/quote6.jpeg" alt="book quotes 8" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="book-images/the-ballad-of-never-after.jpeg" alt="book quotes 9" style="width:100%">
+        </div>
       </div>
     </div>
-  </section>
     <br>
-    <section id="aboutus">
+    <div id="aboutus">
       <p>Welcome to Bookish Fun, where literature meets gaming in a fusion of excitement and knowledge!
         Whether you're a seasoned bookworm or a casual reader, our carefully crafted quizzes offer a playful way to match quotes to their respective books.
         We hope you have an amazing experience here, discovering new books and learning new facts about old ones!</p>
@@ -78,12 +78,13 @@
       Quote Matching Game at Bookish Fun! Test your literary prowess by pairing quotes with their rightful books. Sharpen your 
       literary senses. Engage, challenge, and let the Quote 
       Matching Game elevate your love for literature to new heights!</p>
-    </section>
+    </div>
     <br>
     <div class="btn">
-      <a style="text-decoration:none" href="#gamemodes"><button>PLAY NOW</button></a>
+      <form action="#gamemodes">
+        <button>PLAY NOW</button>
+      </form>
     </div>
-  </section>
 
   <section id="gamemodes">
     <div class="carousel">

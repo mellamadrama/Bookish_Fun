@@ -17,7 +17,7 @@
             <a style="text-decoration:none" href="index.html">HOME</a>
             <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
             <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
-            <a style="text-decoration:none" href="profile.html" id="profile">PROFILE</a>
+            <a style="text-decoration:none" href="profile.html">PROFILE</a>
             <a style="text-decoration:none" href="points.html">POINTS:<span id="score"> 0</span></a>
           </nav>
   
@@ -29,21 +29,23 @@
                       <a style="text-decoration:none" href="index.html">HOME</a>
                       <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
                       <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
-                      <a style="text-decoration:none" href="profile.html" id="profile">PROFILE</a>
+                      <a style="text-decoration:none" href="profile.html">PROFILE</a>
                       <a style="text-decoration:none" href="points.html">POINTS:<span id="scores"> 0</span></a>
                   </div>
               </div>
           </nav>
     </header>
     <!-- this is the message once you select a specific game mode and the play button -->
-    <section id="play">
+    <div id="play">
         <p>You've Selected 'Education Game Mode'</p>
         <p>Are Your Ready?</p>
         <br>
         <div class="btn">
-            <a style="text-decoration:none" href="eduqn.html" id="eduplay"><button>PLAY</button></a>
+            <form action="eduqn.html" method="get">
+                <button id="eduplay">PLAY</button>
+            </form>
         </div>
-    </section>
+    </div>
         <!-- This is the JavaScript for the quiz -->
         <script src="./javascript-files/game.js" type="module"></script>
 </body>

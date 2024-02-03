@@ -12,13 +12,12 @@
 
 <body style="background-color:#f4f3ef;">
   <!-- this is the form for users to enter their username and password -->
-    <header>
-        <h1>Bookish Fun</h1>
-        <hr>
-    </header>
-    <form id="signup-form" action="signup.html" method="get">
-    <section id="signup">
-    <div>
+  <header>
+    <h1>Bookish Fun</h1>
+    <hr>
+  </header>
+  <form id="signup-form" action="profile.html" method="get">
+    <div id="signup">
       <!-- this is the part where the username and password input is -->
       <label for="username"><b>Username:</b></label>
       <input type="text" placeholder="Enter Username" id="username" required>
@@ -28,12 +27,11 @@
       <input type="password" placeholder="Enter Password" id="password" required>
       <br>
       <br>
-      <button id="submit-btn" type="submit" href="profile.html">Sign In</button>
+      <button id="submit-btn" type="submit">Sign In</button>
     </div>
-    </section>
-    </form> 
-</body>
-
+  </form>
   <!-- This is the JavaScript -->
   <script type="module" src="javascript-files/signup.js"></script>
+</body>
+
 </html>

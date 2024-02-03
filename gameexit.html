@@ -11,36 +11,40 @@
 </head>
 
 <body style="background-color:#f4f3ef;">
-  <!-- this is the form for users to enter their username and password -->
-  <header> <!-- this is the name of the site -->
-    <h1>Bookish Fun</h1>
-    <nav class="navbar"> <!-- this is the navigation bar for desktop -->
-        <a style="text-decoration:none" href="index.html">HOME</a>
-        <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
-        <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
-        <a style="text-decoration:none" href="profile.html" id="profile">PROFILE</a>
-        <a style="text-decoration:none" href="points.html">POINTS:<span id="score"> 0</span></a>
-      </nav>
+    <!-- this is the form for users to enter their username and password -->
+    <header> <!-- this is the name of the site -->
+        <h1>Bookish Fun</h1>
+        <nav class="navbar"> <!-- this is the navigation bar for desktop -->
+            <a style="text-decoration:none" href="index.html">HOME</a>
+            <a style="text-decoration:none" href="index.html#aboutus">ABOUT US</a>
+            <a style="text-decoration:none" href="index.html#gamemodes">GAME MODES</a>
+            <a style="text-decoration:none" href="profile.html">PROFILE</a>
+            <a style="text-decoration:none" href="points.html">POINTS:<span id="score"> 0</span></a>
+        </nav>
 
-      <!--this is the navbar for mobile-->
-      <nav class="mobile-navbar">
+        <!--this is the navbar for mobile-->
+        <nav class="mobile-navbar">
             <div><u>EXIT GAME</u></div>
-      </nav>
-</header>
+        </nav>
+    </header>
     <br>
     <!-- confirmation on exiting/quiting the game -->
-    <section id="exit">
+    <div id="exit">
         <p>Are You Sure You Want To Exit/Quit The Game?</p>
         <p>Warning: All points earned during this game has been lost!</p>
         <p>You can exit, but if you go back the game will be reset!</p>
         <br>
         <div class="btn">
-            <a style="text-decoration:none" href="index.html#gamemodes"><button>YES</button></a>
+            <form action="index.html#gamemodes" method="get">
+                <button>YES</button>
+            </form>
         </div>
         <div class="btn">
-            <a style="text-decoration:none" href="eduqn.html" id="no"><button>NO</button></a>
+            <form action="eduqn.html" id="no">
+                <button>NO</button>
+            </form>
         </div>
-    </section>
+    </div>
             <!-- This is the JavaScript for the quiz -->
             <script src="./javascript-files/gameexit.js" type="module"></script>
 </body>
