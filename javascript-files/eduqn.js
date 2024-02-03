@@ -1,8 +1,10 @@
-setTimeout(() => {
+function showPage() {
   document.getElementById("loader").style.display = "none";
 
   document.getElementById("mainpage").style.display = "block";
-}, 5000);
+}
+
+setTimeout(showPage, 5000);
 
 import { db } from "./firebase.js";
 import { doc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js';
@@ -46,12 +48,12 @@ function Question(question,rightAnswer,wrongAnswer1,wrongAnswer2,wrongAnswer3) {
     this.wrongAnswer1 = wrongAnswer1;
     this.wrongAnswer2 = wrongAnswer2;
     this.wrongAnswer3 = wrongAnswer3;
-};
+}
 
 function shuffle(o) {
 	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
 	return o;
-};
+}
 
 function btnProvideQuestion() { 
   
@@ -70,7 +72,7 @@ function btnProvideQuestion() {
   document.getElementById("answerD").value= answers[3];
   document.getElementById("answerD").innerHTML= answers[3];
 
-};
+}
 
 document.getElementById("answerA").addEventListener("click", async function(){
   var answerA = document.getElementById("answerA").value;
@@ -102,7 +104,7 @@ function adjustScore(isCorrect) {
   }
   document.getElementById("score").innerHTML = currentScore;
   document.getElementById("scores").innerHTML = currentScore;
-};
+}
 
 async function checkAnswer(answer) {  
     if (answer == randomQuestion.rightAnswer) {
@@ -123,4 +125,4 @@ async function checkAnswer(answer) {
     score: currentScore
     });
     }
-};
+}
