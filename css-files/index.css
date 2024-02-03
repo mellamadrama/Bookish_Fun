@@ -210,9 +210,17 @@ button:hover {
     flex-grow: 0;
     align-content: center;
     padding-bottom: 20px;
+    gap: 50px;
   }
 
   .card {
     margin: 0px;
+
   }
+
+  #gamemodes {
+    padding-top: 150px;
+    gap: 0;
+  }
+
 }

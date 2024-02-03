@@ -142,4 +142,10 @@ button:hover {
   button {
     width: 90vw;
   }
+
+  .grid {
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
 }
