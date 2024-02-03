@@ -11,35 +11,46 @@
 </head>
 
 <body style="background-color:#f4f3ef;">
-  <header> <!-- this is the name of the site -->
-    <h1>Bookish Fun</h1>
-    <nav class="navbar"> <!-- this is the navigation bar -->
-      <a style="text-decoration:none" href="gameexit.html">EXIT</a>
-      <a style="text-decoration:none" href="yaqn.html">YOUNG ADULT GAME MODE</a>
-      <a style="text-decoration:none" href="yaqn.html">POINTS:<span id="score"> 0</span></a>
-    </nav>
+  <div id="loader">
+    <div class="animation-center">
+			<div style="display:block;">
+                <dotlottie-player src="https://lottie.host/237fde62-8f9d-44a0-b9b9-b1b728a5dada/J1U8Wqv1HQ.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+			</div>
 
-    <!--this is the navbar for mobile-->
-    <nav class="mobile-navbar">
-      <div class="dropdown">
-          <div class="dropbtn"><u>YOUNG ADULT GAME MODE</u></div>
-          <div class="dropdown-content">
-            <a style="text-decoration:none" href="gameexit.html">EXIT</a>
-            <a style="text-decoration:none" href="yaqn.html">YOUNG ADULT GAME MODE</a>
-            <a style="text-decoration:none" href="yaqn.html">POINTS:<span id="score"> 0</span></a>
-          </div>
-      </div>
-  </nav>
-</header>
+		</div>
+		<div class="loading-text">Going to next chapter...</div>
+  </div>
 
+  <div id="mainpage">
+    <header> <!-- this is the name of the site -->
+      <h1>Bookish Fun</h1>
+      <nav class="navbar"> <!-- this is the navigation bar -->
+        <a style="text-decoration:none" href="gameexit.html">EXIT</a>
+        <a style="text-decoration:none" href="yaqn.html">YOUNG ADULT GAME MODE</a>
+        <a style="text-decoration:none" href="yaqn.html">POINTS:<span id="score"> 0</span></a>
+      </nav>
+  
+      <!--this is the navbar for mobile-->
+      <nav class="mobile-navbar">
+        <div class="dropdown">
+            <div class="dropbtn"><u>YOUNG ADULT GAME MODE</u></div>
+            <div class="dropdown-content">
+              <a style="text-decoration:none" href="gameexit.html">EXIT</a>
+              <a style="text-decoration:none" href="yaqn.html">YOUNG ADULT GAME MODE</a>
+              <a style="text-decoration:none" href="yaqn.html">POINTS:<span id="score"> 0</span></a>
+            </div>
+        </div>
+      </nav>
+    </header>
+  
     <!-- this is the message once you select a specific game mode and the play button -->
     <section id="quiz">
       <h3>Which book/series did this quote come from?</h3>
           <br>
-          <div class="flex">
-            <div id="question" class="field"></div>
-          </div>
-          <br>
+           <div class="flex">
+             <div id="question" class="field"></div>
+           </div>
+           <br>
           <div class="grid">
             <div class="flex">
               <button id="answerA"></button>
@@ -47,8 +58,8 @@
             <div class="flex">
               <button id="answerB"></button>
             </div>
-            </div>
-            <div class="grid">
+          </div>
+          <div class="grid">
             <div class="flex">
               <button id="answerC"></button>
             </div>
@@ -57,8 +68,11 @@
             </div>
           </div>
     </section>
+  </div>
 
-        <!-- This is the JavaScript for the quiz -->
-        <script src="./javascript-files/yaqn.js" type="module"></script>
+  <!--This is the JavaScript for the lottie-->
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+  <!-- This is the JavaScript for the quiz -->
+  <script src="./javascript-files/yaqn.js" type="module"></script>
 </body>
 </html>

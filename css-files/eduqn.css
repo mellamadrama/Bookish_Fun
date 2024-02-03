@@ -20,6 +20,28 @@ html {
       margin: 0;
       padding: 15px;
   }
+
+  /*this is the css for the lottie*/
+  .animation-center{  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+   }
+  
+  .loading-text{
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      color: black;
+      top: -50px;
+      position: relative;
+      font-style: italic;
+  }
+
+  #mainpage {
+    display: none;
+    text-align: center;
+  }
   
   .navbar a {color: rgb(0, 0, 0);
       text-align:center;
