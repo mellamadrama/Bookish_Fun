@@ -1,14 +1,14 @@
 # Bookish Fun
 
-Our project is a game website for people who love to read or have an interest in reading. The website caters to people of different ages, ranging from children to adults. The game we decided for the website is matching quotes to the books they came from. There are 2 different game modes that users can choose from. The first is an Education Game Modes, where the quotes will mostly be from literature books. This game mode is to help literature students study and memories quotes in a more fun manner. The third Game Mode is Young Adults. This is catered for more mature and older readers who read more, and read genres like romance, fantasy, young adults, and many others. It is slightly different compared to the other three game modes, as this one is matching the picture/character to the manhwa/manhua, instead of quotes.
+Our project is a game website for people who love to read or have an interest in reading. The website caters to people of different ages, ranging from children to adults. The game we decided on for the website is matching quotes to the books they came from. There are 2 different game modes that users can choose from. The first is an Education Game mode, where the quotes will mostly be from literature books. This game mode is to help literature students study and memorize quotes in a more fun manner. The third Game Mode is Young Adults. This is catered to more mature and older readers who read more and read genres like romance, fantasy, young adults, and many others. It is slightly different compared to the other three game modes, as this one is matching the picture/character to the manhwa/manhua, instead of quotes.
 
-Users will get three tries to guess the correct answer, and will be rewarded with points if they get the correct answers, else they can decide to move on to the next question or exit the game. At the end of the whole game, the number of points earned will be displayed for users to see. Links to the books featured in the quiz are displayed before playing the game. This is so that if they were interested in the books and quotes they saw in the game, they will be able to look it up easily. We hope that our game website will encourage more people to read, and those who already read to find new books that might interest them.
+Users will get three tries to guess the correct answer and will be rewarded with points if they get the correct answers, or else they can decide to move on to the next question or exit the game. At the end of the whole game, the number of points earned will be displayed for users to see. Links to the books featured in the quiz are displayed before playing the game. This is so that if they are interested in the books and quotes they saw in the game, they will be able to look it up easily. We hope that our game website will encourage more people to read, and those who already read to find new books that might interest them.
 
 ## Design Process
 
-We wanted to make this website aesthetic without overwhelming users. The simple user interface helps engage players and immerse them into the realm of books. Since our website is targeted towards book lovers, 
+We wanted to make this website aesthetic without overwhelming users. The simple user interface helps engage players and immerse them into the realm of books. Since our website is targeted towards book lovers, we added well-known books to the quotes quiz, that those who are avid readers will appreciate, and for those who are new readers to discover bestselling titles in a fun way. The quotes in the quiz can entice players to find out more about the books and allow them to expand their reading lists.
 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+With more and more readers often encountering a reading slump, this website can hopefully motivate and bring back more readers, as well as encouraging the younger generation to find interest in reading books again. With our fun quotes quizzes, we hope to bring in more readers who are passionate about reading into the world of books. 
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -16,7 +16,8 @@ In particular, as part of this section we recommend that you provide a list of U
 Link to the Wireframe:
 https://www.figma.com/file/KxK1cV9dL6Acb33eDAfArP/fed-assign-2?type=design&node-id=0%3A1&mode=design&t=U6LOrTIwrFoyqqye-1 
 
-
+<img width="424" alt="image" src="https://github.com/mellamadrama/FED-Final-Assignment/assets/148025168/0b1a0eea-6c71-49d4-83c2-6b71c20e19b3">
+<img width="476" alt="image" src="https://github.com/mellamadrama/FED-Final-Assignment/assets/148025168/0ced6ca0-8d81-49a7-88f0-aa64f2fb6ac3">
 
 ## Features
 
