@@ -1,19 +1,22 @@
 # Bookish Fun
 
-Our project is a game website for people who love to read or have an interest in reading. The website caters to people of different ages, ranging from children to adults. The game we decided for the website is matching quotes to the books they came from. There are 4 different game modes that users can choose from. The first is an Education Game Modes, where the quotes will mostly be from literature books. This game mode is to help literature students study and memories quotes in a more fun manner. The second is a Kids Game Mode. This game mode is made specifically for younger kids for them to have fun and maybe even encourage them to read more. The quotes will come from books like Harry Potter and Percy Jackson. The third Game Mode is Young Adults. This is catered for more mature and older readers who read more, and read genres like romance, fantasy, young adults, and many others. The last is a Manhwa/Manhua Game Mode. This is for those who read Korean Manhwa's and Chinese Manhua's. It is slightly different compared to the other three game modes, as this one is matching the picture/character to the manhwa/manhua, instead of quotes.
+Our project is a game website for people who love to read or have an interest in reading. The website caters to people of different ages, ranging from children to adults. The game we decided for the website is matching quotes to the books they came from. There are 2 different game modes that users can choose from. The first is an Education Game Modes, where the quotes will mostly be from literature books. This game mode is to help literature students study and memories quotes in a more fun manner. The third Game Mode is Young Adults. This is catered for more mature and older readers who read more, and read genres like romance, fantasy, young adults, and many others. It is slightly different compared to the other three game modes, as this one is matching the picture/character to the manhwa/manhua, instead of quotes.
 
-Users will get two tries to guess the correct answer, and will be rewarded with points if they get the correct answers, else they can decide to move on to the next question or exit the game. At the end of the whole game, the number of points earned will be displayed for users to see, as well as the list of books/manhwas/manhuas that were shown throughout the game. This is so that if they were interested in the books and quotes they saw in the game, they will be able to look it up easily. We hope that our game website will encourage more people to read, and those who already read to continue on.
+Users will get three tries to guess the correct answer, and will be rewarded with points if they get the correct answers, else they can decide to move on to the next question or exit the game. At the end of the whole game, the number of points earned will be displayed for users to see. Links to the books featured in the quiz are displayed before playing the game. This is so that if they were interested in the books and quotes they saw in the game, they will be able to look it up easily. We hope that our game website will encourage more people to read, and those who already read to find new books that might interest them.
 
 ## Design Process
- 
+
+We wanted to make this website aesthetic without overwhelming users. The simple user interface helps engage players and immerse them into the realm of books. Since our website is targeted towards book lovers, 
+
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+Link to the Wireframe:
+https://www.figma.com/file/KxK1cV9dL6Acb33eDAfArP/fed-assign-2?type=design&node-id=0%3A1&mode=design&t=U6LOrTIwrFoyqqye-1 
+
+
 
 ## Features
 
