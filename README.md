@@ -8,10 +8,7 @@ Users will get three tries to guess the correct answer and will be rewarded with
 
 We wanted to make this website aesthetic without overwhelming users. The simple user interface helps engage players and immerse them into the realm of books. Since our website is targeted towards book lovers, we added well-known books to the quotes quiz, that those who are avid readers will appreciate, and for those who are new readers to discover bestselling titles in a fun way. The quotes in the quiz can entice players to find out more about the books and allow them to expand their reading lists.
 
-With more and more readers often encountering a reading slump, this website can hopefully motivate and bring back more readers, as well as encouraging the younger generation to find interest in reading books again. With our fun quotes quizzes, we hope to bring in more readers who are passionate about reading into the world of books. 
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+With more and more readers often encountering a reading slump, this website can hopefully motivate and bring back more readers, as well as encourage the younger generation to find interest in reading books again. With our fun quotes quizzes, we hope to bring in more readers who are passionate about reading into the world of books. 
 
 Link to the Wireframe:
 https://www.figma.com/file/KxK1cV9dL6Acb33eDAfArP/fed-assign-2?type=design&node-id=0%3A1&mode=design&t=U6LOrTIwrFoyqqye-1 
@@ -62,7 +59,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Pinterest.
 
 ### Acknowledgements
 
