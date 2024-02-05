@@ -52,6 +52,67 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
+### Homepage
+- The homepage is the main page. When you first enter the page, you will see the name of the website and the navbar. The navbar contains hyperlinks to Home, About Us, Game Modes, Profile and Points. Under that is the auttomated slide show of book quotes. You can choose to scroll down the Homepage to look at the other sections, like the About Us and Game Modes, or click on the hyperlinks on the navbar, which would take you to those sections of the pages.
+
+- The above is how it would look like on a desktop screen, while as it gets smaller to a mobile screen, the only thing that changes for all pages a like with navbar is that it changes into a dropdown menu.
+
+#### About Us
+- The About Us page has a quick summary of what we wish to bring to users and the reason for our website/game. This section is for users to understand what the website is about and what is featured. After the two paragraphs of the reason for our website and target audience, there is a "PLAY NOW" button that allows for users to navigate to the Game Modes section of the main page. 
+
+- The desktop and mobile version of the website is the same, the only difference is the size of the screen and the dropdown menu when the screen is in mobile view.
+
+#### Game Modes
+- The Game Mode page is an option page for users, where they can choose which game mode "Education" or "Young Adult" they want to play. They can just click on either box and it would lead them to the game mode they choose.
+
+- When the screen is in desktop view, the two options are placed side by side, while in the mobile view the options are in a column with the "Education" game mode being on the top and the "Young Adult" game mode being at the bottom.
+
+### Education Game
+- The Education Game is a page where users will enter when they choose the "Education" game mode in the Game Modes page. This page will shows a message that says the user as choosen the game along with an are you ready messagae. At the bottom of it is a "PLAY" button, where if they click on the button, it would bring them to a loading page and then the quiz.
+
+- Then at the bottom is a section where the books of the quotes tested are showed with hyperlinks that would take them to the goodreads page about the book.
+
+- In desktop view the message is below the navbar, with the button being below that, and the hyperlink section being right at the bottom left corner. While in the mobile view, everything is still the same except for the dropdown menu and the hyperlink section is in the bottom middle of the page. The loading page does not change.
+
+### Young Adult Game
+- The Young Adult Game is a page where users will enter when they choose the "Young Adult" game mode in the Game Modes page. This page will shows a message that says the user as choosen the game along with an are you ready messagae. At the bottom of it is a "PLAY" button, where if they click on the button, it would bring them to a loading page and then the quiz.
+
+- Then at the bottom is a section where the books of the quotes tested are showed with hyperlinks that would take them to the goodreads page about the book.
+
+- In desktop view the message is below the navbar, with the button being below that, and the hyperlink section being right at the bottom left corner. While in the mobile view, everything is still the same except for the dropdown menu and the hyperlink section is in the bottom middle of the page. The loading page does not change.
+
+### Edu and YA Game Questions
+- After clicking on the "PLAY" button, and going through the loading page, you will end up in either the Edu or the YA Game QUestions page. This is where the game quiz is for users to play, where they will guess which books the quotes came from, depending on which game mode was previosuly choosen.
+
+- If users choose the Edu game mode, then the quotes would come fron literature books to help them memorise quotes for their literature classes, in a more fun and interactive way. 
+
+- If users choose the YA game mode, then the quotes would be from young adult books, which would just be a fun game for them to guess which quotes are from their favourite books, or to entice them to read new books from quotes that they have never read before.
+
+- The navbar for this page is different as at the right is an exit hyperlink button, where if users where to click on it, the points earned in the game would be reset and it would bring the users to a exit confirmation page. Then in the middle and the right is a hyperlink button of the specific game mode choosen and the points earch throughtout the game. When either button is pressed, the game will immediately reset.
+
+- The points on the right side will display everytime the user gets a question correct or wrong, where it will go up or down by one point. When a user gets a total of 3 wrong tries, the game will end and the user will be directed into a different page where the final points earned will be shown. Or if the user where to get a total of 20 points the game will automatically also end and the same page as previously mentioned will be shown.
+
+- The middle of the page below the navbar is the quote and the 4 options where users can choose which one is the right answer.
+
+- In desktop view the layout is the question and quote below the navbar, and the 4 options placed in two rows and two columns like a rectangle, while in mobile view the only thing that is different is the dropdown menu and the options are in one single column.
+
+### End Of Game
+
+### Game Exit
+
+### Profile
+
+### Login
+
+### Sign Up
+- The Sign Up page is where users can sign up and make a new account if they do not have one. The only way to get to this page is when you go to the Profile page and click the "Log Out" button and then go into the Log In page and click on the "Don't have an account?" which would bring you to the Sign Up page.
+
+- 
+
+### Points
+- The Points page is where the total number of points the user has gained is displayed. It is below the navbar in a coloured box, and a background image. It is the same layout of both desktop and mobile view, with the only difference again being the dropdown menu in mobile view.
+
+
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
