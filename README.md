@@ -99,36 +99,35 @@ In this section, you should mention all of the languages, frameworks, libraries,
 ### End Of Game
 - After garnering 20 points, users will see the End Of Game page, which congratulates them and adds the points earned from the game to their profile.
 
-- In mobile view, the navigation bar simply becomes a dropdown bar, whereas in the desktop view, the navigation bar is at the top as usual. 
+- In mobile view, the navigation bar simply becomes a dropdown bar and showing the user that they are in the End of Game page, whereas in the desktop view, the navigation bar is at the top as usual. 
 
 ### Game Exit
+- When the user wants to quit halfway, the user will be brought to this page. Upon clicking this button and going into this page, all points earned during the game will be lost. After clicking into this page, users can decide between going back to the game, despite all points being reset, or to return to the home page. 
+
+- In desktop view, the navigation bar is displayed in its entirety at the top, whereas in mobile view, it is displayed as a dropdown bar with the header showing the user that they are currently in the Exit Game page. 
 
 ### Profile
+- The Profile page shows the users username and points they have earned so far. It also allows for users to log out of the account, or to login/signup if the user is currently without an account and playing on a guest account.
+
+- In desktop view, the navigation bar is displayed in its entirety at the top, whereas in mobile view, it is displayed as a dropdown bar with the header showing the user that they are currently in the profile page. 
 
 ### Login
+- The Login page is where users can log into the account after logging out and needing to sign back in. It requires for the user to enter the username and password tied to the account. If the user enters data that is not in the database, a notification pops up telling the user that the username or account does not exist. 
+
+- In desktop view, the "username:" and "password:" are beside the input box, whereas in mobile view, they are above the input box. The navigation bar also switches to a dropdown in mobile view, with the header telling the user that you are in the login page. 
 
 ### Sign Up
 - The Sign Up page is where users can sign up and make a new account if they do not have one. The only way to get to this page is when you go to the Profile page and click the "Log Out" button and then go into the Log In page and click on the "Don't have an account?" which would bring you to the Sign Up page.
 
-- 
+- In desktop view, the "username:" and "password:" are beside the input box, whereas in mobile view, they are above the input box. 
 
 ### Points
 - The Points page is where the total number of points the user has gained is displayed. It is below the navbar in a coloured box, and a background image. It is the same layout of both desktop and mobile view, with the only difference again being the dropdown menu in mobile view.
 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Bugs
+- On Github pages, the background for points does not load (even though it works on live server when opened from vscode therefore it is probably a github issue)
+- On Github pages, the points for the account are oddly resetted even though in live server it links perfectly with the database.
 
 ## Credits
 
