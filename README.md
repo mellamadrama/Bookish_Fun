@@ -4,7 +4,7 @@ Our project is a game website for people who love to read or have an interest in
 
 Users will get three tries to guess the correct answer and will be rewarded with points if they get the correct answers, or else they can decide to move on to the next question or exit the game. At the end of the whole game, the number of points earned will be displayed for users to see. Links to the books featured in the quiz are displayed before playing the game. This is so that if they are interested in the books and quotes they saw in the game, they will be able to look it up easily. We hope that our game website will encourage more people to read, and those who already read to find new books that might interest them.
 
-link to github page: https://mellamadrama.github.io/FED-Final-Assignment/
+link to GitHub page: https://mellamadrama.github.io/FED-Final-Assignment/
 
 ## Design Process
 
@@ -19,24 +19,35 @@ https://www.figma.com/file/KxK1cV9dL6Acb33eDAfArP/fed-assign-2?type=design&node-
 <img width="476" alt="image" src="https://github.com/mellamadrama/FED-Final-Assignment/assets/148025168/0ced6ca0-8d81-49a7-88f0-aa64f2fb6ac3">
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Having an account - Allows the user to stock up and keep track of the number of points they have, which can give users a sense of accomplishment. 
+- Education Game Mode - Allows literature students to recap on quotes from different popular literature books. It also exposes students to other literature books that might peak their interest.
+- Young Adult Game Mode - Allows players to explore different books, and getting a sneak peak into key quotes/moments from the different books. This feature aims to encourage players to read the featured books, and even encourage non-readers to try picking up a book from the featured list and reading it. Ultimately this feature serves to help current readers to find new books that they might be interested in, and to encourage more people to read.
 
 ### Features Left to Implement
-- Another feature idea
+- Adding more game modes - Allows us to reach out to more groups of readers, no matter how niche, and building a community of readers.
+- Adding a leaderboard - Allows players to be able to compare themselves with others, and encouraging to play the game more.
+- Regularly updating questions - Adding more and more books to the game, allowing for up-and-coming authors to also be featured. It also helps to spice up the gameplay.
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [HTML]([https://html.com/](https://html.spec.whatwg.org/))
+    - The project uses **HTML** to help build the webpage.
+- [CSS](https://www.w3.org/Style/CSS/)
+    - The project uses **CSS** to help stylise the webpage.
+- [JavaScript](https://262.ecma-international.org/)
+    - The project uses **JavaScript** to help set and get data.
+- [Firebase](https://firebase.google.com/)
+    - The project uses **Firebase** API to help store user data.
+- [Figma](https://www.figma.com/)
+    - The project uses **Figma** to help develop the wireframe for the website.
+- [W3Schools](https://www.w3schools.com/)
+    - The project uses features from **W3Schools** to help find suitable features to add to the website.
+- [W3C](https://www.w3.org/)
+    - The project uses **W3C** validator to help check for errors.
 
 
 ## Testing
@@ -58,11 +69,17 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The features for certain elements of the webpage such as the card and the navigation bar were taken from [W3Schools](https://www.w3schools.com/).
 
 ### Media
 - The photos used in this site were obtained from Pinterest.
-
-### Acknowledgements
-
-- I received inspiration for this project from X
+  - [literature.jpeg](https://www.pinterest.com/pin/23995810508241041/)
+  - [pride-and-prejudice.jpeg](https://www.pinterest.com/pin/10625749115455865/)
+  - [quote1.jpeg](https://www.pinterest.com/pin/10203536649667322/)
+  - [quote2.jpeg](https://www.pinterest.com/pin/563018695508648/)
+  - [quote3.jpeg](https://www.pinterest.com/pin/844493672121738/)
+  - [quote4.jpeg](https://www.pinterest.com/pin/793759503099415951/)
+  - [quote5.jpeg](https://www.pinterest.com/pin/774124929340331/)
+  - [quote6.jpeg](https://www.pinterest.com/pin/1196337390806323/)
+  - [the-ballad-of-never-after.jpeg](https://www.pinterest.com/pin/204069426868075388/)
+  - [youngadult.jpeg](https://www.pinterest.com/pin/1002473198287350238/)
