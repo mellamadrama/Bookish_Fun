@@ -34,7 +34,7 @@ https://www.figma.com/file/KxK1cV9dL6Acb33eDAfArP/fed-assign-2?type=design&node-
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [HTML]([https://html.com/](https://html.spec.whatwg.org/))
+- [HTML](https://html.spec.whatwg.org/)
     - The project uses **HTML** to help build the webpage.
 - [CSS](https://www.w3.org/Style/CSS/)
     - The project uses **CSS** to help stylise the webpage.
