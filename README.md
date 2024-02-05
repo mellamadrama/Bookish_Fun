@@ -97,6 +97,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - In desktop view the layout is the question and quote below the navbar, and the 4 options placed in two rows and two columns like a rectangle, while in mobile view the only thing that is different is the dropdown menu and the options are in one single column.
 
 ### End Of Game
+- After garnering 20 points, users will see the End Of Game page, which congratulates them and adds the points earned from the game to their profile.
+
+- In mobile view, the navigation bar simply becomes a dropdown bar, whereas in the desktop view, the navigation bar is at the top as usual. 
 
 ### Game Exit
 
