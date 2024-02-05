@@ -4,6 +4,8 @@ Our project is a game website for people who love to read or have an interest in
 
 Users will get three tries to guess the correct answer and will be rewarded with points if they get the correct answers, or else they can decide to move on to the next question or exit the game. At the end of the whole game, the number of points earned will be displayed for users to see. Links to the books featured in the quiz are displayed before playing the game. This is so that if they are interested in the books and quotes they saw in the game, they will be able to look it up easily. We hope that our game website will encourage more people to read, and those who already read to find new books that might interest them.
 
+link to github page: https://mellamadrama.github.io/FED-Final-Assignment/
+
 ## Design Process
 
 We wanted to make this website aesthetic without overwhelming users. The simple user interface helps engage players and immerse them into the realm of books. Since our website is targeted towards book lovers, we added well-known books to the quotes quiz, that those who are avid readers will appreciate, and for those who are new readers to discover bestselling titles in a fun way. The quotes in the quiz can entice players to find out more about the books and allow them to expand their reading lists.
