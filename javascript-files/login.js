@@ -22,3 +22,4 @@ document.getElementById('submit').addEventListener('click', async function (e) {
         alert("Username does not exist!");
     }
 })
+

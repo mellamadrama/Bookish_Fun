@@ -24,3 +24,8 @@ getDoc(pointsSystem).then(function (data){
 document.getElementById("out").addEventListener("click", async function(){
     localStorage.removeItem("accounts");
 });
+
+if (localStorage.getItem("accounts"))
+{
+    document.getElementById("out").style.display = "none"
+}
