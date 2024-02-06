@@ -63,7 +63,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - The desktop and mobile version of the website is the same, the only difference is the size of the screen and the dropdown menu when the screen is in mobile view.
 
 #### Game Modes
-- The Game Mode page is an option page for users, where they can choose which game mode "Education" or "Young Adult" they want to play. They can just click on either box and it would lead them to the game mode they choose.
+- The Game Mode page is an option page for users, where they can choose which game mode "Education" or "Young Adult" they want to play. They can just click on either image and it would lead them to the game mode they choose.
 
 - When the screen is in desktop view, the two options are placed side by side, while in the mobile view the options are in a column with the "Education" game mode being on the top and the "Young Adult" game mode being at the bottom.
 
