@@ -88,7 +88,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - If users choose the YA game mode, then the quotes would be from young adult books, which would just be a fun game for them to guess which quotes are from their favourite books, or to entice them to read new books from quotes that they have never read before.
 
-- The navbar for this page is different as at the right is an exit hyperlink button, where if users where to click on it, the points earned in the game would be reset and it would bring the users to a exit confirmation page. Then in the middle and the right is a hyperlink button of the specific game mode choosen and the points earch throughtout the game. When either button is pressed, the game will immediately reset.
+- The navbar for this page is different as at the right is an exit hyperlink button, where if users where to click on it, the points earned in the game would be reset and it would bring the users to the home page game modes section. Then in the middle and the right is a hyperlink button of the specific game mode choosen and the points earch throughtout the game. When either button is pressed, the game will immediately reset.
 
 - The points on the right side will display everytime the user gets a question correct or wrong, where it will go up or down by one point. When a user gets a total of 3 wrong tries, the game will end and the user will be directed into a different page where the final points earned will be shown. Or if the user where to get a total of 20 points the game will automatically also end and the same page as previously mentioned will be shown.
 
@@ -100,11 +100,6 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - After garnering 20 points, users will see the End Of Game page, which congratulates them and adds the points earned from the game to their profile.
 
 - In mobile view, the navigation bar simply becomes a dropdown bar and showing the user that they are in the End of Game page, whereas in the desktop view, the navigation bar is at the top as usual. 
-
-### Game Exit
-- When the user wants to quit halfway, the user will be brought to this page. Upon clicking this button and going into this page, all points earned during the game will be lost. After clicking into this page, users can decide between going back to the game, despite all points being reset, or to return to the home page. 
-
-- In desktop view, the navigation bar is displayed in its entirety at the top, whereas in mobile view, it is displayed as a dropdown bar with the header showing the user that they are currently in the Exit Game page. 
 
 ### Profile
 - The Profile page shows the users username and points they have earned so far. It also allows for users to log out of the account, or to login/signup if the user is currently without an account and playing on a guest account.
