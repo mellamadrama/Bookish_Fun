@@ -20,3 +20,16 @@ document.getElementById('exit').addEventListener('click', async function (e) {
     window.location.href = 'index.html';
 
 });
+
+document.getElementById('button').addEventListener('click', async function (e) {
+    e.preventDefault()
+
+    const acc = localStorage.getItem("accounts");
+    const points = doc(db, "accounts", acc);
+
+    await updateDoc(points, {
+    score: increment(score)
+    });
+    window.location.href = 'index.html';
+
+});

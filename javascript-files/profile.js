@@ -12,10 +12,12 @@ const acc = localStorage.getItem("accounts");
 if (acc)
 {
     document.getElementById("out").style.display = "display"
+    document.getElementById("in").style.display = "none"
 }
 else
 {
   document.getElementById("out").style.display = "none"
+  document.getElementById("in").style.display = "display"
 }
 const pointsSystem = doc(db, "accounts", acc);
 getDoc(pointsSystem).then(function (data) {
