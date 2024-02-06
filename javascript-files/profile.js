@@ -6,13 +6,19 @@ x.addEventListener("click", function(e){
   e.preventDefault()
 });
 
-
 let score = 0;
 let user = '';
 const acc = localStorage.getItem("accounts");
+if (acc)
+{
+    document.getElementById("out").style.display = "display"
+}
+else
+{
+  document.getElementById("out").style.display = "none"
+}
 const pointsSystem = doc(db, "accounts", acc);
-
-getDoc(pointsSystem).then(function (data){
+getDoc(pointsSystem).then(function (data) {
   score = data.data().score;
   document.getElementById("score").innerText = score
   document.getElementById("point").innerText = score
@@ -25,7 +31,3 @@ document.getElementById("out").addEventListener("click", async function(){
     localStorage.removeItem("accounts");
 });
 
-if (localStorage.getItem("accounts"))
-{
-    document.getElementById("out").style.display = "none"
-}
