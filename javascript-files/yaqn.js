@@ -1,11 +1,12 @@
+import { db } from "./firebase.js";
+import { doc, updateDoc, increment } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js';
+
 setTimeout(() => {
   document.getElementById("loader").style.display = "none";
 
   document.getElementById("mainpage").style.display = "block";
 }, 5000);
 
-import { db } from "./firebase.js";
-import { doc, updateDoc, increment } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js';
 
 //variables
 var quiz = [];
