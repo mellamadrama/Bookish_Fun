@@ -102,7 +102,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - In mobile view, the navigation bar simply becomes a dropdown bar and showing the user that they are in the End of Game page, whereas in the desktop view, the navigation bar is at the top as usual. 
 
 ### Profile
-- The Profile page shows the users username and points they have earned so far. It also allows for users to log out of the account, or to login/signup if the user is currently without an account and playing on a guest account.
+- The Profile page shows the users username and points they have earned so far. It also allows for users to log out of the account if they are currently logged in, and to login/signup if the user is currently without an account and playing on a guest account.
 
 - In desktop view, the navigation bar is displayed in its entirety at the top, whereas in mobile view, it is displayed as a dropdown bar with the header showing the user that they are currently in the profile page. 
 
@@ -120,8 +120,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - The Points page is where the total number of points the user has gained is displayed. It is below the navbar in a coloured box, and a background image. It is the same layout of both desktop and mobile view, with the only difference again being the dropdown menu in mobile view.
 
 ### Bugs
-- On Github pages, the background for points does not load (even though it works on live server when opened from vscode therefore it is probably a github issue)
-- On Github pages, the points for the account are oddly resetted even though in live server it links perfectly with the database.
+- none that we know of
 
 ## Credits
 
