@@ -119,7 +119,6 @@ In this section, you should mention all of the languages, frameworks, libraries,
 ### Points
 - The Points page is where the total number of points the user has gained is displayed. It is below the navbar in a coloured box, and a background image. It is the same layout of both desktop and mobile view, with the only difference again being the dropdown menu in mobile view.
 
-
 ### Bugs
 - On Github pages, the background for points does not load (even though it works on live server when opened from vscode therefore it is probably a github issue)
 - On Github pages, the points for the account are oddly resetted even though in live server it links perfectly with the database.
