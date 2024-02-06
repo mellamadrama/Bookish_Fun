@@ -1,3 +1,6 @@
+import { db } from "./firebase.js";
+import { doc, updateDoc, increment } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js';
+
 function showPage() {
   document.getElementById("loader").style.display = "none";
 
@@ -5,9 +8,6 @@ function showPage() {
 }
 
 setTimeout(showPage, 5000);
-
-import { db } from "./firebase.js";
-import { doc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js';
 
 //variables
 var quiz = [];
@@ -127,22 +127,22 @@ function adjustScore(isCorrect) {
 }
 
 async function checkAnswer(answer) {  
-    if (answer == randomQuestion.rightAnswer) {
-    adjustScore(true);
-    btnProvideQuestion();
-    } 
-    else { 
-    alert("Wrong!");
-    adjustScore(false);
-    numofWrongAns += 1;
-    }	  
-    if (numofWrongAns == 3 || currentScore == 20) {
-    window.location.href = `endofgame.html?score=${currentScore}`;
+  if (answer == randomQuestion.rightAnswer) {
+  adjustScore(true);
+  btnProvideQuestion();
+  } 
+  else { 
+  alert("Wrong!");
+  adjustScore(false);
+  numofWrongAns += 1;
+  }	  
+  if (numofWrongAns == 3 || currentScore == 20) {
     const acc = localStorage.getItem("accounts");
     const pointsSystem = doc(db, "accounts", acc);
-
+    
     await updateDoc(pointsSystem, {
-    score: currentScore
+      score: increment(currentScore)
     });
-    }
+    window.location.href = `endofgame.html?score=${currentScore}`;
+  }
 }

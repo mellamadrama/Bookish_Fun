@@ -5,7 +5,7 @@ setTimeout(() => {
 }, 5000);
 
 import { db } from "./firebase.js";
-import { doc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js';
+import { doc, updateDoc, increment } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js';
 
 //variables
 var quiz = [];
@@ -135,12 +135,12 @@ async function checkAnswer(answer) {
     numofWrongAns += 1;
     }	  
     if (numofWrongAns == 3 || currentScore == 20) {
-    window.location.href = `endofgame.html?score=${currentScore}`;
-    const acc = localStorage.getItem("accounts");
-    const pointsSystem = doc(db, "accounts", acc);
-
-    await updateDoc(pointsSystem, {
-    score: currentScore
-    });
+      const acc = localStorage.getItem("accounts");
+      const pointsSystem = doc(db, "accounts", acc);
+      
+      await updateDoc(pointsSystem, {
+        score: increment(currentScore)
+      });
+      window.location.href = `endofgame.html?score=${currentScore}`;
     }
-}
+  }
