@@ -1,5 +1,5 @@
 import { db } from "./firebase.js";
-import { doc, getDoc } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js'
+import { doc, getDoc } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js';
 
 // this is the java for the slideshow
 var myIndex = 0;
@@ -12,7 +12,7 @@ function carousel() {
     x[i].style.display = "none";  
   }
   myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
+  if (myIndex > x.length) {myIndex = 1};  
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 5000); // Change image every 5 seconds
 }
@@ -23,7 +23,7 @@ const pointsSystem = doc(db, "accounts", acc);
 
 getDoc(pointsSystem).then(function (data){
   score = data.data().score;
-  document.getElementById("score").innerText = score
-  document.getElementById("scores").innerText = score
+  document.getElementById("score").innerText = score;
+  document.getElementById("scores").innerText = score;
 
 });

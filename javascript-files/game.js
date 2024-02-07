@@ -7,7 +7,7 @@ const pointsSystem = doc(db, "accounts", acc);
 
 getDoc(pointsSystem).then(function (data){
   score = data.data().score;
-  document.getElementById("score").innerText = score
-  document.getElementById("scores").innerText = score
+  document.getElementById("score").innerText = score;
+  document.getElementById("scores").innerText = score;
 
 });

@@ -9,7 +9,7 @@ document.getElementById('submit').addEventListener('click', async function (e) {
     if (docSnap.exists()) {
         if (document.getElementById('password').value == docSnap.data().password)
         {
-            const username = document.getElementById('username').value
+            const username = document.getElementById('username').value;
             localStorage.setItem("accounts", username);
             window.location.href = 'profile.html';
         }
@@ -21,5 +21,5 @@ document.getElementById('submit').addEventListener('click', async function (e) {
     else {
         alert("Username does not exist!");
     }
-})
+});
 
